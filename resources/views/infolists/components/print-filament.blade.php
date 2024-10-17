@@ -15,10 +15,13 @@
     <style>
         @media print {
             body * {
+                overflow: visible !important;
+                position: initial !important;
                 visibility: visible !important;
+
             }
             body {
-                font-size: 12pt;
+                color: #000 !important;
                 color: #000;
             }
             .btn, #print-button, .fi-sidebar, .fi-breadcrumbs, .fi-topbar {
