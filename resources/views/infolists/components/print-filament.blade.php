@@ -1,25 +1,29 @@
-<div>
-    <button
-        id="print-button"
-        class="{{ config('print.button.padding') }}
-               bg-{{ config('print.button.color') }}
-               text-{{ config('print.button.text_color') }}
-               {{ config('print.button.rounded') }}
-               hover:bg-{{ config('print.button.hover_color') }}">
-        {{ $getLabel() }}
-    </button>
-</div>
+<x-dynamic-component :component="$getEntryWrapperView()">
+    <div>
+        <button
+            id="print-button"
+            class="{{ implode(' ', config('print.button.classes')) }}">
+            {{ $getLabel() }}
+        </button>
+    </div>
+    <script>
+        document.getElementById('print-button').addEventListener('click', function() {
+            window.print();
+        });
+    </script>
 
-<script>
-    document.getElementById('print-button').addEventListener('click', function() {
-        window.print();
-    });
-</script>
-
-<style>
-    @media print {
-        .btn {
-            display: none; /* Hide the print button in the printed page */
+    <style>
+        @media print {
+            body * {
+                visibility: visible !important;
+            }
+            body {
+                font-size: 12pt;
+                color: #000;
+            }
+            .btn, #print-button, .fi-sidebar, .fi-breadcrumbs, .fi-topbar {
+                display: none;
+            }
         }
-    }
-</style>
+    </style>
+</x-dynamic-component>
