@@ -1,15 +1,15 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace Print\Print;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;
 
-class SkeletonPlugin implements Plugin
+class PrintPlugin implements Plugin
 {
     public function getId(): string
     {
-        return 'skeleton';
+        return 'print';
     }
 
     public function register(Panel $panel): void

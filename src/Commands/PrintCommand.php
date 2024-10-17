@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Print\Print\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class PrintCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'print';
 
     public $description = 'My command';
 
