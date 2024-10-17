@@ -46,7 +46,7 @@ return [
 ## Usage
 
 ```php
-PrintComponent::make("print_button")->label("Print Page");
+PrintComponent::make("print_page")->label("Print Page")->columnSpanFull();
 ```
 
 ## Testing
