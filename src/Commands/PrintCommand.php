@@ -1,6 +1,6 @@
 <?php
 
-namespace Print\Print\Commands;
+namespace PrintFilament\Print\Commands;
 
 use Illuminate\Console\Command;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Print\Print;
+namespace PrintFilament\Print;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;

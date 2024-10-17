@@ -33,13 +33,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Print\\Print\\": "src/",
-            "Print\\Print\\Database\\Factories\\": "database/factories/"
+            "PrintFilament\\Print\\": "src/",
+            "PrintFilament\\Print\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Print\\Print\\Tests\\": "tests/"
+            "PrintFilament\\Print\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -57,10 +57,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Print\\Print\\PrintServiceProvider"
+                "PrintFilament\\Print\\PrintServiceProvider"
             ],
             "aliases": {
-                "Print": "Print\\Print\\Facades\\PrintFilament"
+                "Print": "PrintFilament\\Print\\Facades\\PrintFilament"
             }
         }
     },

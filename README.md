@@ -46,7 +46,7 @@ return [
 ## Usage
 
 ```php
-PrintEntry::make("print_button")->label("Print Page");
+PrintComponent::make("print_button")->label("Print Page");
 ```
 
 ## Testing

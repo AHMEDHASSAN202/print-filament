@@ -1,6 +1,6 @@
 <?php
 
-namespace Print\Print;
+namespace PrintFilament\Print;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;

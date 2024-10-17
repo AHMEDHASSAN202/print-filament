@@ -1,5 +1,5 @@
 <?php
 
-namespace Print\Print;
+namespace PrintFilament\Print;
 
 class PrintFilament {}

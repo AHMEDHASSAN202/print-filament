@@ -1,6 +1,6 @@
 <?php
 
-namespace Print\Print\Testing;
+namespace PrintFilament\Print\Testing;
 
 use Livewire\Features\SupportTesting\Testable;
 

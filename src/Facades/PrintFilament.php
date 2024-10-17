@@ -1,6 +1,6 @@
 <?php
 
-namespace Print\Print\Facades;
+namespace PrintFilament\Print\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
