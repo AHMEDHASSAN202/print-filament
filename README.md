@@ -14,7 +14,7 @@ The print package is a simple and efficient tool that allows users to quickly pr
 You can install the package via composer:
 
 ```bash
-composer require print/print
+composer require print-filament/print
 ```
 
 You can publish the config file with:
