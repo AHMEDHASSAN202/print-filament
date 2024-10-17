@@ -17,13 +17,6 @@ You can install the package via composer:
 composer require print/print
 ```
 
-You can publish and run the migrations with:
-
-```bash
-php artisan vendor:publish --tag="print-migrations"
-php artisan migrate
-```
-
 You can publish the config file with:
 
 ```bash
@@ -36,23 +29,10 @@ Optionally, you can publish the views using
 php artisan vendor:publish --tag="print-views"
 ```
 
-This is the contents of the published config file:
-
-```php
-return [
-];
-```
-
 ## Usage
 
 ```php
 PrintComponent::make("print_page")->label("Print Page")->columnSpanFull();
-```
-
-## Testing
-
-```bash
-composer test
 ```
 
 ## Changelog
