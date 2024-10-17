@@ -46,8 +46,7 @@ return [
 ## Usage
 
 ```php
-$print = new Print\Print();
-echo $print->echoPhrase('Hello, Print!');
+PrintEntry::make("print_button")->label("Print Page");
 ```
 
 ## Testing
