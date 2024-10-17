@@ -1,6 +1,6 @@
 {
-    "name": "print/print",
-    "description": "The print package is a simple and efficient tool that allows users to quickly print the current webpage directly from their browser. This plugin enhances the convenience of printing online content by providing a one-click solution for generating printer-friendly versions of the pages you're viewing.",
+    "name": "print/print-filament",
+    "description": "The print-filament package is a simple and efficient tool that allows users to quickly print the current webpage directly from their browser. This plugin enhances the convenience of printing online content by providing a one-click solution for generating printer-friendly versions of the pages you're viewing.",
     "keywords": [
         "print",
         "laravel",
