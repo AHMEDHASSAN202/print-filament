@@ -24,7 +24,7 @@
                 color: #000 !important;
                 color: #000;
             }
-            .btn, #print-button, .fi-sidebar, .fi-breadcrumbs, .fi-topbar {
+            .btn, #print-button, .fi-sidebar, .fi-breadcrumbs, .fi-topbar, .sr-only {
                 display: none;
             }
         }
